@@ -7,7 +7,7 @@
 **A curated, production-grade guide to reactive notebooks, interactive data apps, reporting frameworks, and modern visualization platforms.**
 
 [![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ?style=social)](https://github.com/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ?style=social)](https://github.com/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ?style=social)](https://github.com/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -66,7 +66,7 @@ The sector is **moderately to highly fragmented** rather than a winner-take-all 
 ## 💻 Open-Source GitHub Projects
 
 > [!TIP]
-> Open-source projects are ordered **descending by GitHub star count**. Each project includes a live stargazer badge linking directly to its stargazer community.
+> Open-source projects are ordered **descending by GitHub Stars_Count**. Each project includes a live stargazer badge linking directly to its stargazer community.
 
 ### 1. [Apache Superset](https://github.com/apache/superset) [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
 * **License:** Apache-2.0 | **Primary Language:** Python, TypeScript  
