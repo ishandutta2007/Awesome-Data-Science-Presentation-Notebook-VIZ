@@ -1,31 +1,55 @@
-# Awesome-Data-Science-Presentation-Notebook-VIZ
+<div align="center">
 
-## Top Data Science Presentation & Notebook Viz Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Data Science Presentation & Notebook Visualization" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Reactive Notebooks, Interactive Data Apps & Publication-Quality Reporting*  
-**Last updated: March 2026**
+# 📊 Awesome Data Science Presentation & Notebook Visualization 🚀
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Science Presentation & Notebook Visualization**. These tools help data scientists turn exploratory notebooks into shareable dashboards, interactive web apps, and presentation-ready reports—covering everything from cloud-hosted notebook environments to open-source frameworks that render live Jupyter notebooks as standalone applications.
+**A curated, production-grade guide to reactive notebooks, interactive data apps, reporting frameworks, and modern visualization platforms.**
 
-**Examples** include Marimo, Streamlit, Hex, Deepnote, Observable, Quarto, Voila, and JupyterLab (the category leaders).
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ?style=social)](https://github.com/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ?style=social)](https://github.com/ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted data apps, open-source notebook publishing, and community-driven visualization—ideal for data teams seeking reproducibility, avoiding per-seat SaaS pricing, and owning their presentation pipeline end to end. The open-source landscape is genuinely functional: **Marimo** guarantees reproducible notebooks with no hidden state , **Streamlit** turns Python scripts into shareable data apps in minutes , and **Quarto** produces publication-quality documents from Markdown and notebooks .
+<p align="center">
+  <a href="#-sector-overview--market-dynamics">📈 Sector Overview</a> •
+  <a href="#-saashosted-platforms">☁️ SaaS Platforms</a> •
+  <a href="#-open-source-github-projects">💻 Open-Source Projects</a> •
+  <a href="#-star-history">⭐ Star History</a> •
+  <a href="#-support--sponsor">☕ Support</a> •
+  <a href="#-how-to-contribute">🤝 Contribute</a>
+</p>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+</div>
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 📌 Overview & Scope
 
-The global data science and machine learning platform market is estimated at ~$100B–$130B+ (projected to exceed $500B by the 2030s at an ~18–25% CAGR), driven by enterprise generative AI mandates and demand for interactive data products. The sector is **moderately to highly fragmented** rather than a winner-take-all monopoly: while hyperscalers (Google Cloud, AWS, Azure) and unified data platforms (Snowflake, Databricks) command enterprise infrastructure, specialized vendors and open-source ecosystems (Hex, Deepnote, Observable, Marimo) thrive by solving specific developer ergonomics, reactive compute, and collaborative presentation workflows.
+Modern data science requires communicating insights through reproducible, high-performance, and visually engaging mediums. This directory tracks the entire **Data Science Presentation & Notebook Visualization** ecosystem:
+- ⚡ **Reactive Notebooks & Workspaces** (Marimo, Hex, Deepnote) eliminating hidden notebook states.
+- 📱 **Interactive Data Applications & Dashboards** (Streamlit, Gradio, Taipy, Panel, Dash).
+- 📑 **Publication-Ready Scientific Reporting** (Quarto, Jupyter Book, Evidence BI-as-code).
+- 📊 **Enterprise BI & Exploration Engines** (Apache Superset, JupyterLab, Observable Plot, Bokeh).
 
-## SaaS/Hosted Platforms
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global data science and machine learning platform market is estimated at **~$100B–$130B+** (projected to surpass **$500B by the 2030s** at an **~18–25% CAGR**), catalyzed by enterprise generative AI mandates, BI modernization, and demand for interactive data applications. 
+
+The sector is **moderately to highly fragmented** rather than a winner-take-all monopoly:
+- **Cloud Hyperscalers & Lakehouses** (AWS, Azure, Google Cloud Vertex/Colab, Databricks, Snowflake) govern heavy data storage, compute, and enterprise governance.
+- **Specialized Workspaces & Open-Source Frameworks** (Hex, Deepnote, Streamlit, Marimo, Quarto, Taipy, Superset) capture developer mindshare by solving critical developer ergonomics, reactive DAG state management, self-hosting privacy, and rapid stakeholder data app delivery.
+
+---
+
+## ☁️ SaaS/Hosted Platforms
+
+> [!NOTE]
+> Platforms are sorted descending by company size (valuation / revenue). Pricing reflects starting paid tiers, and free tier limits detail real compute/seat allocations.
 
 | Platform | Company Size (Valuation / Revenue) | Starting Paid Tier Pricing | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -37,55 +61,132 @@ The global data science and machine learning platform market is estimated at ~$1
 | **[Saturn Cloud](https://saturncloud.io/)** | **~$25M–$50M Valuation** ($9.5M Funding, ~$2M–$5M ARR) | **Pay-As-You-Go** starting at **$0.04/hour** (CPU, e.g. t3.medium) / **$0.53/hour** (T4 GPU); $0.10/GB-month storage | **Free forever**: 30 hours of free compute per month, access to JupyterLab, RStudio, and Dask clusters; subject to inactivity timeouts. | Managed cloud data science platform offering auto-scaling GPU/CPU clusters, Dask pipelines, and dashboard hosting. |
 | **[Marimo (molab)](https://marimo.io/)** | **Acquired by CoreWeave** (Pre-acquisition $5M Seed; CoreWeave ~$19B–$23B Valuation) | **Free in Public Preview** (molab cloud service); open-source enterprise/self-hosted configurations | **Free forever (preview)**: 4 vCPUs, 32 GB RAM per notebook; opt-in NVIDIA RTX Pro 6000 GPU access; 12-hour session limit; 90-minute idle timeout. | Reactive, deterministic Python notebook platform running without hidden state; deploys notebooks as interactive web apps. |
 
-## Open-Source GitHub Projects
+---
 
-- **[Marimo](https://github.com/marimo-team/marimo)**  
-  **The most reproducible open-source notebook for data science.** **Apache-2.0**, Python. **No hidden state**: code, outputs, and program state are guaranteed consistent—run a cell and dependent cells re-run automatically; delete a cell and its variables are scrubbed . **Deterministic execution order** based on variable references, not cell position. **Built-in package management** with automatic venv isolation. **Interactive dataframes** for paging/filtering millions of rows without code. **SQL cells** that return Python dataframes. **Deploy as web app** (`marimo run`), execute as script (`python notebook.py`), or **convert Jupyter notebooks** (`marimo convert`). **Testable**: run pytest on notebooks. **Best for teams wanting reproducible, git-friendly notebooks** that double as apps and scripts without Jupyter's hidden-state pitfalls .
+## 💻 Open-Source GitHub Projects
 
-- **[Streamlit](https://github.com/streamlit/streamlit)**  
-  **The most popular open-source framework for turning Python scripts into data apps.** **Apache-2.0**. **Write apps the same way you write plain Python scripts**—Streamlit reruns the entire script on every interaction, with `@st.cache_data` to skip costly computations . **Magic commands** let you write variables on their own line and they render automatically. **30+ built-in components** including dataframes, charts (Altair, Plotly, Matplotlib, ECharts), media, and layout columns/grids . **Deploy anywhere**—local, Streamlit Community Cloud, or self-hosted. **Best for quick dashboards, internal tools, and demos** where development speed matters more than fine-grained state control .
+> [!TIP]
+> Open-source projects are ordered **descending by GitHub star count**. Each project includes a live stargazer badge linking directly to its stargazer community.
 
-- **[Quarto](https://github.com/quarto-dev/quarto-cli)**  
-  **The open-source scientific and technical publishing system for data scientists.** **MIT licensed**, built on Pandoc. **Author in Markdown** with embedded code from Python, R, Julia, and JavaScript via Jupyter, Knitr, and Observable . **Rich technical writing features**: cross-references, sub-figures, callouts, citations, and numbered equations. **Project system** for rendering websites and books from multiple documents. **Visual Markdown editor** for long-form composition. **Output to HTML, PDF, Word, and presentations**. **Best for publication-quality reports, books, and reproducible research** where the notebook is the source but the output must be polished .
+### 1. [Apache Superset](https://github.com/apache/superset) [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+* **License:** Apache-2.0 | **Primary Language:** Python, TypeScript  
+* **Description:** Enterprise-ready business intelligence, data exploration, and visualization platform. Connects to almost any SQL database or data warehouse, provides a no-code visual chart builder, an advanced SQL IDE (SQL Lab), and scalable, granular security policies.  
+* **Best For:** Large-scale enterprise dashboards and data exploration without per-seat licensing costs.
 
-- **[Voila](https://github.com/voila-dashboards/voila)**  
-  **Turns Jupyter notebooks into standalone web applications.** **BSD-3-Clause**. **Each user gets a dedicated Jupyter kernel** that executes callbacks to widget changes . **By default, disallows execute requests from the frontend** (security) and **strips input cells** from the rendered app. **JupyterLab preview extension** installed automatically. **Language-agnostic**—works with C++ (xeus-cling), R, and other kernels . **Best for sharing existing Jupyter notebooks as interactive dashboards** without rewriting them as Streamlit apps .
+### 2. [Streamlit](https://github.com/streamlit/streamlit) [![Stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)
+* **License:** Apache-2.0 | **Primary Language:** Python  
+* **Description:** The most widely adopted framework for turning plain Python scripts into interactive, shareable data applications. Reruns scripts cleanly upon widget interactions, offers built-in `@st.cache_data` decorators, and provides 30+ layout and visualization components.  
+* **Best For:** Rapid dashboard building, ML demos, and internal analytics tools in pure Python.
 
-- **[JupyterLab](https://github.com/jupyterlab/jupyterlab)**  
-  **The next-generation web interface for Project Jupyter.** **BSD-3-Clause**, **19.5K+ stars** (Bokeh) / active development . **Modular, extensible IDE** for notebooks, terminals, text editors, and custom components. **Extension ecosystem** for everything from git integration to debugging. **Best for teams already on Jupyter** wanting a full IDE experience with the option to add Voila for app publishing .
+### 3. [Gradio](https://github.com/gradio-app/gradio) [![Stars](https://img.shields.io/github/stars/gradio-app/gradio?style=social&color=white)](https://github.com/gradio-app/gradio/stargazers)
+* **License:** Apache-2.0 | **Primary Language:** Python, TypeScript  
+* **Description:** Rapid UI library designed specifically for machine learning models and multimodal Python applications. Wrap any Python function with intuitive inputs and outputs, launch interactive web interfaces, and generate public shareable links in seconds.  
+* **Best For:** Generative AI demos, computer vision/NLP model showcases, and quick UI prototyping.
 
-- **[Jupyter Book](https://github.com/jupyter-book/jupyter-book)**  
-  **Build publication-quality books and documents from computational material.** **Open-source**, maintained by the Executable Book Project. **Write in Markdown or Jupyter notebooks**, include code cells, run embedded code, cache outputs, and convert to **web-based interactive books and PDF** . **Jupyter Book 1.x is in maintenance**; **Jupyter Book 2.x** is being built on MyST-MD . **Best for textbooks, documentation, and research compilations** where narrative and computation must live together .
+### 4. [Plotly Dash](https://github.com/plotly/dash) [![Stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers)
+* **License:** MIT | **Primary Language:** Python, JavaScript  
+* **Description:** Robust framework for building production-grade analytical web applications in Python, R, and Julia without writing JavaScript. Integrates deeply with Plotly.js charts and reactive functional callbacks for granular state handling.  
+* **Best For:** Complex, mission-critical analytical applications requiring customized layouts and fine-grained UI reactivity.
 
-- **[Evidence](https://github.com/evidence-dev/evidence)**  
-  **Business intelligence as code—build reports with SQL and Markdown.** **MIT licensed**. **Create reports in code** using SQL queries and Markdown; **self-host or publish on Evidence Studio** . **Agent-ready**: develop with Evidence's Agent or Claude Code/Cursor . **Best for data analysts wanting version-controlled, code-based BI reports** without a drag-and-drop tool .
+### 5. [Marimo](https://github.com/marimo-team/marimo) [![Stars](https://img.shields.io/github/stars/marimo-team/marimo?style=social&color=white)](https://github.com/marimo-team/marimo/stargazers)
+* **License:** Apache-2.0 | **Primary Language:** Python  
+* **Description:** Modern, reactive, and deterministic Python notebook environment. Eliminates Jupyter's hidden-state issues through an automatic variable dependency DAG: running a cell recalculates dependents, while deleting cells clears state. Notebooks double as scripts, tests (`pytest`), and standalone web applications (`marimo run`).  
+* **Best For:** Reproducible research, git-friendly notebook workflows, and instant notebook-to-app conversion.
 
-### Additional Strong Open-Source Options
+### 6. [Bokeh](https://github.com/bokeh/bokeh) [![Stars](https://img.shields.io/github/stars/bokeh/bokeh?style=social&color=white)](https://github.com/bokeh/bokeh/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** Python, TypeScript  
+* **Description:** Interactive visualization library that renders elegant, versatile graphics in modern web browsers over large streaming datasets. Supplies both concise high-level interfaces and detailed control over visual layouts and interactive tools.  
+* **Best For:** Interactive web charts, large streaming data visualizations, and standalone HTML presentation graphs.
 
-- **[Panel](https://github.com/holoviz/panel)** — **Powerful data exploration and web app framework for Python** (BSD-3-Clause). Build tools, dashboards, and complex apps entirely in Python; works with Bokeh, Plotly, Matplotlib, Altair, and more. Deploy as web app, standalone Pyodide app, or static HTML . **Best for Python-native interactive dashboards** with rich widget support.
-- **[Plotly Dash](https://github.com/plotly/dash)** — **Analytical web apps in Python** (MIT). Callback-based interactivity, Plotly charts, and Dash Enterprise for deployment. **Best for production dashboards** needing fine-grained callback control.
-- **[Gradio](https://github.com/gradio-app/gradio)** — **Build and share ML demos in Python** (Apache-2.0, 43.7K stars). `gr.Interface` wraps any Python function with inputs/outputs; share links in seconds . **Best for model demos and quick UI prototypes**.
-- **[Observable Plot](https://github.com/observablehq/plot)** — **JavaScript chart library** for exploratory data visualization. Works in Observable notebooks, vanilla HTML, npm, React, and Vue . **Best for web-native interactive charts** embedded in custom apps.
-- **[nteract](https://github.com/nteract/nteract)** — **Desktop notebook editor** (Tauri + React) with a background daemon (`runtimed`), CLI (`runt`), and **MCP server for AI agents** to run code and collaborate in real time . **Best for teams wanting a local-first desktop notebook** with agent integration.
+### 7. [Taipy](https://github.com/Avaiga/taipy) [![Stars](https://img.shields.io/github/stars/Avaiga/taipy?style=social&color=white)](https://github.com/Avaiga/taipy/stargazers)
+* **License:** Apache-2.0 | **Primary Language:** Python  
+* **Description:** Full-stack open-source Python framework designed to turn data science algorithms into production-ready web applications. Features optimized front-end components, built-in scenario management, pipeline execution, and what-if analysis orchestration.  
+* **Best For:** Enterprise data apps requiring pipeline scheduling, scenario comparison, and high concurrency.
 
-**Frameworks for building custom systems**: Combine **Marimo** for reproducible notebooks that deploy as apps, **Streamlit** or **Panel** for interactive dashboards, and **Quarto** for publication-quality reports. Use **Voila** to surface existing Jupyter notebooks as web apps without rewriting them.
+### 8. [JupyterLab](https://github.com/jupyterlab/jupyterlab) [![Stars](https://img.shields.io/github/stars/jupyterlab/jupyterlab?style=social&color=white)](https://github.com/jupyterlab/jupyterlab/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** TypeScript, Python  
+* **Description:** The industry standard extensible web-based development environment for notebooks, code, and data. Highly modular architecture supporting custom extensions, language kernels, git workflows, and interactive terminal consoles.  
+* **Best For:** Core exploratory data analysis, interactive computing, and extensible workbench workflows.
 
-## How to Contribute
+### 9. [Evidence](https://github.com/evidence-dev/evidence) [![Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)
+* **License:** MIT | **Primary Language:** JavaScript, Svelte  
+* **Description:** Business intelligence as code. Data teams build fast, version-controlled markdown reports powered directly by SQL queries. Supports code review via git, static generation, CI/CD deploys, and AI coding assistants.  
+* **Best For:** Analysts and analytics engineers who want version-controlled BI reports without clunky drag-and-drop tools.
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+### 10. [Quarto](https://github.com/quarto-dev/quarto-cli) [![Stars](https://img.shields.io/github/stars/quarto-dev/quarto-cli?style=social&color=white)](https://github.com/quarto-dev/quarto-cli/stargazers)
+* **License:** MIT | **Primary Language:** TypeScript  
+* **Description:** Next-generation open-source scientific and technical publishing system built on Pandoc. Interweaves markdown text with computational code from Python, R, Julia, and Observable to generate publication-quality articles, presentations, books, and websites.  
+* **Best For:** Academic research, technical documentation, PDF reports, and executive presentations.
 
-Star the repo if you find it useful!
+### 11. [Voila](https://github.com/voila-dashboards/voila) [![Stars](https://img.shields.io/github/stars/voila-dashboards/voila?style=social&color=white)](https://github.com/voila-dashboards/voila/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** Python  
+* **Description:** Transforms existing Jupyter notebooks into secure, standalone interactive web applications. Hides raw code cells and execute endpoints, maintaining a live Jupyter kernel to handle user widget interactions safely.  
+* **Best For:** Converting existing Jupyter notebooks into web dashboards without rewriting code.
 
-## Disclaimer
+### 12. [Panel](https://github.com/holoviz/panel) [![Stars](https://img.shields.io/github/stars/holoviz/panel?style=social&color=white)](https://github.com/holoviz/panel/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** Python  
+* **Description:** Flexible data exploration and dashboard framework for Python from the HoloViz ecosystem. Connects widgets to plots, tables, and data pipelines across Bokeh, Plotly, Matplotlib, Altair, and PyScript/WASM.  
+* **Best For:** Complex multi-page dashboards and interactive scientific computing workflows.
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Data science presentation tools may expose datasets and model outputs to web audiences; enforce access controls and validate that dashboards do not leak sensitive data through interactive filters or parameter manipulation.
-- **Tool choice depends on whether you need reproducibility, rapid app building, or publication output.** **Marimo solves Jupyter's hidden-state problem**—code, outputs, and state stay consistent, and notebooks double as scripts and apps . **Streamlit is the fastest path to a working data app** but reruns the whole script on every interaction—fine for dashboards, less ideal for expensive computations . **Quarto is for publication-quality output**, not interactive apps—use it when the deliverable is a report or book, not a dashboard . **Voila turns existing notebooks into apps** without rewriting, but inherits Jupyter's hidden-state risks . **Marimo's molab and Streamlit Community Cloud offer free cloud hosting**, but self-hosting eliminates vendor dependency. Validate whether you need interactive apps (Streamlit, Panel), reproducible notebooks (Marimo), or polished reports (Quarto) before committing.
+### 13. [Observable Plot](https://github.com/observablehq/plot) [![Stars](https://img.shields.io/github/stars/observablehq/plot?style=social&color=white)](https://github.com/observablehq/plot/stargazers)
+* **License:** ISC | **Primary Language:** JavaScript  
+* **Description:** Concise, expressive JavaScript library for exploratory data visualization. Built on web standards, offering a layered grammar of graphics that works seamlessly in Observable notebooks, vanilla HTML, React, and Vue applications.  
+* **Best For:** Web-native data visualizations and interactive chart embedding in modern web frontend stacks.
+
+### 14. [Jupyter Book](https://github.com/jupyter-book/jupyter-book) [![Stars](https://img.shields.io/github/stars/jupyter-book/jupyter-book?style=social&color=white)](https://github.com/jupyter-book/jupyter-book/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** Python  
+* **Description:** Generates publication-ready HTML books and PDF documents from collections of Jupyter notebooks and Markdown files with cross-references, equations, and interactive figures.  
+* **Best For:** Textbooks, academic course material, and long-form technical documentation.
+
+### 15. [HoloViews](https://github.com/holoviz/holoviews) [![Stars](https://img.shields.io/github/stars/holoviz/holoviews?style=social&color=white)](https://github.com/holoviz/holoviews/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** Python  
+* **Description:** High-level data analysis and visualization library designed to make data analysis and presentation seamless by declaring continuous data spaces rather than manually plotting charts.  
+* **Best For:** Exploratory data pipelines that need automated, interactive visual representations.
+
+### 16. [nteract](https://github.com/nteract/nteract) [![Stars](https://img.shields.io/github/stars/nteract/nteract?style=social&color=white)](https://github.com/nteract/nteract/stargazers)
+* **License:** BSD-3-Clause | **Primary Language:** TypeScript, Rust  
+* **Description:** Modern desktop notebook application built with Tauri and React, complete with a background runtime daemon and MCP server capabilities for AI agent collaboration.  
+* **Best For:** Local-first desktop notebook workflows and AI-assisted data analysis.
 
 ---
 
-**Made for data scientists, analysts, and teams building reproducible data presentation infrastructure.**  
-Let's make data science presentation and notebook visualization more open, reproducible, and shareable.
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Data-Science-Presentation-Notebook-VIZ&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Sponsor
+
+If you found this curated list helpful for your data science presentations, dashboards, or research pipelines, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** and contribute your favorite presentation frameworks.
+- 📢 **Share with your colleagues** on LinkedIn, X, or Discord.
+- ☕ **Buy me a coffee / Sponsor the project**: Support ongoing maintenance on the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Thank you to all community contributors and stargazers! ❤️
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! To suggest a new tool or update an existing entry:
+1. Fork this repository.
+2. Add your tool with factual descriptions, exact licensing, and relevant pricing/free-tier details.
+3. Submit a Pull Request with a brief summary of why it's a great fit for data science presentations.
+
+Check out more curated lists at **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)**!
+
+---
+
+## 📜 Disclaimer
+
+- This is a **community-curated** list — independent and not an endorsement.
+- Verify security and authentication controls before deploying data apps or dashboards to public endpoints to avoid unintended data leaks.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the open-source data science community.</sub>
+</div>
