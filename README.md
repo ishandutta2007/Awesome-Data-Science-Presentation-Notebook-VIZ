@@ -15,33 +15,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global data science and machine learning platform market is estimated at ~$100B–$130B+ (projected to exceed $500B by the 2030s at an ~18–25% CAGR), driven by enterprise generative AI mandates and demand for interactive data products. The sector is **moderately to highly fragmented** rather than a winner-take-all monopoly: while hyperscalers (Google Cloud, AWS, Azure) and unified data platforms (Snowflake, Databricks) command enterprise infrastructure, specialized vendors and open-source ecosystems (Hex, Deepnote, Observable, Marimo) thrive by solving specific developer ergonomics, reactive compute, and collaborative presentation workflows.
+
 ## SaaS/Hosted Platforms
 
-- **[Marimo (molab)](https://marimo.io/)**  
-  **Reactive Python notebook with a free cloud service (molab).** **No hidden state**—running a cell automatically re-runs dependent cells, and deleting a cell scrubs its variables from memory . **Deploy as an interactive web app or slides**, run in the browser via WASM, or execute as a script. **Built-in package management** with automatic venv isolation. **AI-assisted coding** with Copilot or local models. **molab** provides a cloud notebook experience similar to Google Colab for sharing links .
-
-- **[Streamlit Community Cloud](https://streamlit.io/cloud)**  
-  **The fastest path from Python script to shareable data app.** **Free tier** for public apps with Community Cloud. **App Gallery** for discovery. **Built-in sharing** with authentication options on paid tiers. Positioned for quick demos and internal tools without infrastructure management .
-
-- **[Hex.tech](https://hex.tech/)**  
-  **Collaborative data workspace with notebook and app modes.** Combines SQL, Python, and no-code cells with AI assistance. **Publish as interactive data apps** with parameterized inputs. Positioned for teams wanting a polished, collaborative notebook-to-app workflow.
-
-- **[Deepnote](https://deepnote.com/)**  
-  **Collaborative Jupyter-compatible notebook with real-time co-editing.** **AI assistant** for code generation and debugging. **Publish as shareable apps** with interactive widgets. Positioned for teams wanting Jupyter familiarity with cloud collaboration.
-
-- **[Observable Cloud](https://observablehq.com/)**  
-  **Reactive JavaScript notebook for data visualization.** **Observable Plot** library for charts, plus **chart cell** for no-code creation with eject-to-code . **Free for public use**; Pro connects to private databases and enables private collaboration .
-
-- **[Google Colab](https://colab.research.google.com/)**  
-  **Free cloud Jupyter notebooks with GPU/TPU access.** Widely used for ML experimentation and teaching. **Limited persistence** and compute quotas on free tier; Pro/Pro+ add higher limits.
-
-- **[Saturn Cloud](https://saturncloud.io/)**  
-  **Managed data science platform with Jupyter, RStudio, and Dask.** **Auto-scaling GPU/CPU clusters** for model training and batch jobs. Positioned for teams wanting managed infrastructure without DevOps overhead.
+| Platform | Company Size (Valuation / Revenue) | Starting Paid Tier Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Colab](https://colab.research.google.com/)** | **Parent: Alphabet / Google** (~$2.1T+ Market Cap, $350B+ Annual Revenue) | **$9.99/month** (Colab Pro, 100 compute units; or $9.99 Pay-As-You-Go) | **Free forever**: Limited shared compute (T4 GPU subject to dynamic availability and quotas); max 12h runtime; idle timeouts after short inactivity. | Cloud-hosted Jupyter environment for ML experimentation, quick prototyping, and GPU/TPU compute. |
+| **[Streamlit Community Cloud](https://streamlit.io/cloud)** | **Parent: Snowflake** (~$800M Acquisition; Snowflake ~$50B+ Market Cap, $3.5B+ Annual Revenue) | **Free Community Cloud** / Streamlit in Snowflake (SiS) starts via Snowflake Virtual Warehouses at **~$2.00–$3.00/credit-hour** (XS Warehouse consumes 1 credit/hr) | **Free forever**: Unlimited public apps; 1 private app; up to 2.7 GB RAM and 2 vCPUs per app container; apps sleep after 12h inactivity. | Rapid deployment platform converting Python scripts into interactive, shareable data applications and internal tools. |
+| **[Hex.tech](https://hex.tech/)** | **$1.2B Valuation** ($272M+ Funding, ~$6M–$15M+ ARR) | **$36/editor/month** (Professional tier, billed annually) | **Free forever**: 1 editor seat, up to 5 published apps, small shared compute profile, limited monthly AI actions. | Collaborative workspace combining SQL, Python, and reactive visual components into interactive stakeholder data apps. |
+| **[Observable Cloud](https://observablehq.com/)** | **~$142M Valuation** ($46.1M Funding, ~$5M+ ARR) | **$22/month** (Pro tier, billed annually; or $25 month-to-month) | **Free forever**: Unlimited public notebooks, unlimited editors/viewers on Free Teams; strictly public data only (no private notebooks/connections). | Collaborative data canvas and reactive notebook environment for D3/Observable Plot visualizations and interactive reports. |
+| **[Deepnote](https://deepnote.com/)** | **~$80M Valuation** ($23.8M Funding, ~$3M+ ARR) | **$39/editor/month** (Team tier, billed annually; or $59/editor/month billed monthly) | **Free forever**: Up to 3 editors, unlimited viewers, up to 5 projects, Basic compute (2 vCPUs, 5 GB RAM), 7-day revision history, limited AI credits. | Real-time collaborative cloud Jupyter notebook environment designed for data science teams and dashboard deployment. |
+| **[Saturn Cloud](https://saturncloud.io/)** | **~$25M–$50M Valuation** ($9.5M Funding, ~$2M–$5M ARR) | **Pay-As-You-Go** starting at **$0.04/hour** (CPU, e.g. t3.medium) / **$0.53/hour** (T4 GPU); $0.10/GB-month storage | **Free forever**: 30 hours of free compute per month, access to JupyterLab, RStudio, and Dask clusters; subject to inactivity timeouts. | Managed cloud data science platform offering auto-scaling GPU/CPU clusters, Dask pipelines, and dashboard hosting. |
+| **[Marimo (molab)](https://marimo.io/)** | **Acquired by CoreWeave** (Pre-acquisition $5M Seed; CoreWeave ~$19B–$23B Valuation) | **Free in Public Preview** (molab cloud service); open-source enterprise/self-hosted configurations | **Free forever (preview)**: 4 vCPUs, 32 GB RAM per notebook; opt-in NVIDIA RTX Pro 6000 GPU access; 12-hour session limit; 90-minute idle timeout. | Reactive, deterministic Python notebook platform running without hidden state; deploys notebooks as interactive web apps. |
 
 ## Open-Source GitHub Projects
 
